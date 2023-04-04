@@ -9,10 +9,10 @@ import java.util.Scanner;
 public class AnagramCode {
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
+		//step-1
 		System.out.println("Enter the strings to compare : ");
 		String str1=sc.next();
 		String str2=sc.next();
-		
 		//step-2
 		char[] c1=str1.toCharArray();
 		char[] c2=str2.toCharArray();
